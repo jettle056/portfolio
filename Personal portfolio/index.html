@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jett Le</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="stylesheet" href= "mediaqueries.css">
+</head>
+<body>
+        <nav id="desktop-nav">
+     <div class="logo">Jett Le</div>
+     <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>       
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Jett Le</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>       
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+    <div class="section_pic-container">
+            <img src="images/profile.jpg" class="circle">
+        </div>
+    <div class="header-text">
+        <p class="header-text-1">Hello, I'm</p>
+        <h1 class= "title">Jett Le</h1>
+        <p class="header-text-2">Computer Science Student @CSUF</p>
+        <div class="btn-container">
+            <a href="assets/resume.pdf"> 
+                <button class= "btn btn-color-1">Download CV</button>
+              </a> 
+              <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+              <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/jettle'">
+            </div>
+    </div>
+     </div>  
+    </div>
+</section>
+<section id= "about">
+    <p class = "section_text_p1">Get To Know More</p>
+    <h1 class = "title">About Me</h1>
+        <div class ="section-container">
+           <div class="section_pic-container">
+            <img src="./images/user.jpg" alt="Profile Picture" class="about-pic"/>
+           </div> 
+           <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>2+ Years of Coding</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p>Undergraduate Student @CSUF <br/>B.S. in Computer Science </p>
+                </div>
+            </div>
+            <div class = "text-container">
+                <p>Hello, I’m Jett Le and I am currently undergraduate student pursuing computer science at California State Unversity, Fullerton! I developed an interest towards computers and the creatvity that computer science allows developers to bring huge change and improvement to the world. As a student, I am constantly exploring opportunities to develop my skills and experience as a programmer and looking for career growth opportunities. <br/>I also have a passion for learning languages! Currently I am fluent in 5 spoken langauges, Cantonese, Mandarin, Vietnamese, English, and Korean, so I bring a unique ability to connect with diverse audiences and facilitate cross-cultural communication. With a strong track record of leveraging language profiency to build relationships, navigate complex situations, and drive successful outcomes, I bring valuable cross-cultural expertise to any team or project.
+           </div>
+        </div>
+ </section>
+ <section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+                <article>
+                <img src="assets/html.png" alt="Experience Icon" class="icon"/>
+                <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/css.jpg" alt="Experience Icon" class="icon"/>
+                <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/javascript.png" alt="Experience Icon" class="icon"/>
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                </div>
+            </article>
+        </div>
+        </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+                <article>
+                <img src="assets/python.png" alt="Experience Icon" class="icon"/>
+                <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/c++.png" alt="Experience Icon" class="icon"/>
+                <div>
+                    <h3>C++</h3>
+                    <p>Experienced</p>
+                </div>
+            </article>
+        </div>
+        </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+                <article>
+                <div>
+                    <h3>粵語</h3>
+                    <h3>Cantonese</h3>
+                    <p>Fluent</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>國語</h3>
+                    <h3>Mandarin</h3>
+                    <p>Fluent</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Tiếng Việt</h3>
+                    <h3>Vietnamese</h3>
+                    <p>Proficient</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>한국어</h3>
+                    <h3>Korean</h3>
+                    <p>Intermediate</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>English</h3>
+                    <p>Fluent</p>
+                </div>
+            </article>
+        </div>
+        </div>
+    </div>
+    </div>
+ </section>
+ <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Byoung Nail Spa Website</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/jettle056/portfolio'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://jettle056.github.io/byoung/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="assets/email.png" alt="Email Icon" class="icon contact-icon"/>
+            <p><a href="mailto:jettle056@gmail.com">jettle056@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon"/>
+            <p><a href="https://linkedin.com/in/jettle">LinkedIn</a></p>
+        </div>
+    </div>
+ </section>
+ <footer>
+    <nav>
+        <div class="nav-links-container">
+        <ul class = "nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>       
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+       </nav>
+    <p>Copyright &#169; 2024 Jett Le. All Rights Reserved.</p>
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>
